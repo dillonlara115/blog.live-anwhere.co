@@ -1,0 +1,38 @@
+.card {
+   border: 0;
+}
+
+.single-article {
+
+
+   &-content {
+      max-width: 65ch;
+      margin: 2rem auto;
+      img {
+         max-width: 140%;
+         margin-left: -20%;
+         @media (max-width: 990px) {
+            max-width: 100%;
+            margin-left: 0;
+         }
+      }
+   }
+   .featured-image {
+      transition: all 250ms ease;
+      opacity: 1;
+      transform: scale(1);
+      mix-blend-mode: normal;
+      overflow: hidden;
+
+      &:hover {
+         opacity: .8;
+         transform: scale(1.02);
+         mix-blend-mode: luminosity;
+      }
+   }
+}
+
+
+.entry-title {
+   font-size: 3rem;
+}
