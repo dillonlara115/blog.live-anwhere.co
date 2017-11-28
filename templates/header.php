@@ -4,7 +4,7 @@
 
      <div class="col-4">
 
-        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="http://localhost:86/Live%20Anywhere%20Blog/wp-content/uploads/2017/11/Live-Anywhere.png" alt="Live Anywhere Logo" class="img-fluid"></a>
+        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="/wp-content/uploads/2017/11/Live-Anywhere.png" alt="Live Anywhere Logo" class="img-fluid"></a>
 
      </div>
      <div class="col-8">
